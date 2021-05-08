@@ -1,0 +1,57 @@
+.layout-speech{
+    background-color: #2b4f60;
+    height: 100vh;
+    font-family: 'jrhand', sans-serif;
+
+    .navbar{
+        background-color: #eeebdd;
+        padding: 10px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .brand-name{
+            font-size: 35px;
+            font-weight: 700;
+
+            a{
+                text-decoration: none;
+                color: black;
+                transition: .3s;
+
+                &:hover{
+                    color: grey;
+                    transition: .3s;
+                }
+            }
+        }
+    
+        .navbar-link{
+            display: flex;
+
+            .link{
+                margin-left: 40px;
+                font-size: 25px;
+                font-weight: 600;
+                a{
+                    color: black;
+                    text-decoration: none;
+                    transition: .3s;
+
+                    &:hover{
+                        color: grey;
+                        transition: .3s;
+                    }
+                }
+            }
+        }
+    }
+
+    .content-speech{
+        margin: 40px 100px;
+    }
+
+    .cursor-pointer{
+        cursor: pointer;
+    }
+}
